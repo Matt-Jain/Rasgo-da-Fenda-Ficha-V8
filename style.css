@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(#1b1f2a, #0e1015);
+  color: #eee;
+}
+
+.hidden { display: none; }
+
+.screen {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-card {
+  background: #1e222f;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+header {
+  background: #141824;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav button {
+  margin-left: 5px;
+}
+
+.section {
+  padding: 20px;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  gap: 10px;
+}
+
+input, textarea, select {
+  width: 100%;
+  margin: 5px 0;
+  padding: 8px;
+}
+
+.skill {
+  display: flex;
+  justify-content: space-between;
+  margin: 4px 0;
+}
+
+.skill input {
+  width: 60px;
+}
+
+.card {
+  background: #f1f1e6;
+  color: #000;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.bar {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.bar button {
+  width: 25px;
+}
